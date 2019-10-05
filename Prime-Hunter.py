@@ -1,11 +1,15 @@
 prime = [] #2,3,5,7,11
 prime.append(2)
+prime.append(3)
 
-test = 3
+print(prime[0])
+print(prime[1])
+
+test = 5
 while True:
   isPrime = True
 
-  i = 0
+  i = 1
   while i < len(prime):
     factor = 0
     loopAgain = True
@@ -22,5 +26,5 @@ while True:
   if isPrime == True:
     prime.append(test)
     print(test)
-  
-  test += 1
+      
+  test += 2
